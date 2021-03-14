@@ -1,0 +1,268 @@
+<!doctype html>
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+	h2{
+		color:green;
+	}
+</style>
+
+</head>
+
+<body>
+	<h2>this is form tag</h2>
+<form action="/action-page.php" method="get">
+	
+	<label for="fname">First name:</label>
+	<input type="text" id="fname" name="fname"> <br><br>
+	<label for="lname">Last name:</label>
+    <input type="text" id="lname" name="lname"> <br><br>
+    <input type="submit" value="submit">
+    <p>Click submit button if you want to store this data in <mark> php page </mark>.</p>
+</form>	
+
+<h2>Horizontal Rule</h2>
+<hr/>
+
+<h2>iframe element</h2>
+
+<iframe src="https://www.bikroy.com" title="sell and buy anything">
+</iframe>
+
+<img src="images/banner.jpg" alt="banner">
+
+<h2>this from about input tag</h2>
+
+<form action="/action-page.php">
+
+<label for="fname">FIRST NAME:</label>
+<input type="text" id="fname" name="fname"> <br><br>
+<label for="lname">LAST NAME:</label>
+<input type="text" id="lname" name="lname"><br><br>
+<input type="submit" value="submit">
+
+</form>
+
+<p>this is <ins> mohammad shah riyadh </ins> i am <del>lazy person</del> on earth </p>
+
+<h2>kbd tag is use to show keyboard sign</h2>
+
+<p>if you want to copy this text in (WINDOWS) then press <kbd>Ctrl</kbd> + <kbd>C</kbd>.</p>
+
+<p>if you want to copy this text in (MAC OS) then press <kbd>Cmd</kbd> + <kbd>C</kbd>.</p>
+
+<h2>label tag</h2>
+
+<from action="/action_page.php">
+	<label for="male">Male</label>
+  <input type="radio" name="gender" id="male" value="male"> <br><br>
+  <label for="female">Female</label>
+  <input type="radio" name="gender" id="female" value="female"> <br><br>
+  <label for="other">Other</label>
+  <input type="radio" name="gender" id="other" name="other"> <br>
+  <input type="submit" value="submit">
+</from>
+
+<h2>this is legend tag</h2>
+<from action="/action_page.php">
+	<feildset>
+		<legend>personal information</legend>
+		<label for="fname">First Name:</label>
+		<input type="text" id="fname" name="fname">.<br>
+		<label for="lname">Last Name:</label>
+		<input type="text" id="lname" name="lname">.<br>
+		<label for="Email">Email:</label>
+		<input type="email" id="email" name="email">.<br>
+		<label for="birthday">Birthday</label>
+		<input type="date" id="birthday" name="birthday"><br>
+		<input type="submit" value="submit">
+	</feildset>
+</from>
+<h2>this is ordered list and unorder list</h2>
+<ol>
+	<li>shah</li>
+	<li>riyadh</li>
+	<li>arav</li>
+	<li>mohammad</li>
+</ol>
+<ul>
+	<li>shah</li>
+	<li>riyadh</li>
+	<li>arav</li>
+	<li>mohammad</li>
+</ul>
+
+<main>
+	<h1>Main tag specifies the main content of the document or of the website</h1>
+	<P>this is shah from bangladesh and shah lived in a remote village so </P>
+	<artice>
+		<h2>google chrome</h2>
+		<p>google chrome is a web browser developed by google,released in 2008. chrome is the world's most popular web browser today</p>
+
+	</artice>
+
+	<article>
+	<h2>Mozilla Firefox</h2>
+	<p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since january,2018</p>
+     </article>
+</main>
+<label for="disk_c">Disk usage C:</label>
+<meter id="disk_c" value="2" min="0" max="10">2 out of ten</meter>
+<br>
+<label for="disk_d">Disk usage D:</label>
+<meter id="disk_d" value="0.6" min="0" max="1">60%</meter>
+<nav>
+	<a href="/html/">HTML</a>
+	<a href="/css/">CSS</a>
+	<a href="/js/">Javascript</a>
+	<a href="/python/">Python</a>
+</nav>
+
+<h2>NO SCRIPT</h2>
+
+<script>
+	document.write("Hello World!")
+</script>
+<noscript>your browser does not support Javascript!</noscript>
+
+<h2>THE OPTION GROUP ELEMENT</h2>
+<label for="cars">choose a car:</label>
+<select name="cars" id="cars">
+	<optgroup label="swedish cars">
+        <option value="volvo">Volvo</option>
+        <option value="suv">SUV</option>
+	</optgroup>
+
+	<optgroup label="German Cars">
+		<option value="mercedes">Mercedes</option>
+		<option value="audi">Audi</option>
+	</optgroup>
+		
+	</optgroup>
+</select>
+
+<h2>option Tag</h2>
+<label for="cars">Choose a Car</label>
+<select id="cars">
+         
+         <option value="audi">Audi</option>
+         <option value="Mercedes">Mercedes</option>
+         <option value="bmw">BMW</option>
+         <option value="jaguar">Jaguar</option>
+
+	</select>
+	<h2>select tag</h2>
+	<label for="cars">choose a car</label>
+	<select name="cars" id="cars">
+		<option value="volvo">Volvo</option>
+		<option value="saab">Saab</option>
+		<option value="mercedes">Mercedes</option>
+		<option value="audi">AUDI</option>
+	</select> 
+
+	<h2>output tag is so hard</h2>
+	<form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+		<input type="range" id="a" value="50">
+		+<input type="number" id="b" value="25">
+		=<output name="x" for="a b"></output>
+	</form>
+	<h2>set the "autoplay" parameter to "true", so the sound will start playing as soon as the page loads:</h2>
+	<object data="horse.wav">
+		<param name="autoplay" value="true">
+	</object>
+	<h2>PICTURE TAG this picture is flexible by this screen width</h2>
+	<picture>
+		<source media="(min-width:650px)" srcset="images/white_flower.jpg">
+			<source media="(min-width:465px)" srcset="images/orange_flowers.jpg">
+				<img src="images_orange_flowers.jpg" alt="Flowers" style="width:auto;">
+
+	</picture>
+<h2>PRE TAG jei vabe likhbo shei vabei thakbe</h2>
+<pre>
+	text in a pre element 
+	is displayed in a fixed-width
+	font, and it preserves 
+	both   spaces and line breaks
+</pre>
+
+<h2>progress tag its shows website downloading progress any others progess too</h2>
+<label for="file">Downloading progress:</label>
+<progress id="file" value="32" min="0" max="100">32%</progress>
+
+
+<h2>q tag defines short quatation</h2>
+<p>Google.com is a:
+	<q>google is one of the most used website in the world becasue its very resourefull and helpful website</q>
+	
+</p>
+<h2> (rp rt ruby) use to write wired language</h2>
+
+<p>(rp rt ruby) those tag are use to do write chinese language that type</p>
+
+<h2>The s element</h2>
+<p><s>one day left! in 50% discount</s></p>
+<p>Sorry! SOLD OUT</p>
+
+<h2>The samp Tag</h2>
+<p>message from my computer:</p>
+<p><samp>File not found.<br>press F1 to continue</samp></p>
+<section>
+<h2>section tag</h2>
+<p>the world wide fund for nature(wwf) is an international organization working on issues regarding the conservation, research and restoration of the environment, formerly named world wildlife fund. wwf was founded in 1961</p>
+</section>
+
+<h2>small tag</h2>
+<p>this is some normal text</p>
+<p><small>this is some smaller text</small></p>
+<h2>span tag</h2>
+<p>My mother has <span style="color:blue">blue</span> eyes and my father has <span style="color:brown">brown</span> eyes </p>
+<h2>this is subscript tag and superscript tag</h2>
+<p>this is <sub>subcript tag</sub>. </p>
+<p>this is <sup>superscript tag</sup>. </p>
+<table border="2px solid green">
+	<tr>
+		<th>Month</th>
+		<th>savings</th>
+	</tr>
+	<tr>
+		<th>january</th>
+		<th>100 dollar</th>
+	</tr>
+	<tr>
+		<th>february</th>
+		<th>150 dollar</th>
+	</tr>
+</table>
+
+<h2>template tag and inculding hidden content</h2>
+<button onclick="showcontent()">show hidden content</button>
+<template>
+	<h2>Flower</h2>
+	<img src="images/white_flower.jpg" width="214" height="204">
+</template>
+<script>
+	function showcontent() {
+		var temp = document.getElementsByTagName("template")[0];
+		var clon = temp.content.clonenode(true);
+	}
+</script>
+
+<p>I have a date on <time>10.00</time> to <time>21.00</time> every weekday.</p>
+
+<p>i have a date on <time datetime="2008-02-14 20.00">valentines day</time>.</p>
+
+
+
+
+
+<a href="index.html">
+
+</body>
+
+
+</html>
